@@ -1,5 +1,5 @@
 ﻿Public Class Form1
-    Dim num1, num2, num3 As Integer
+    Dim num1, num2, num3 As Long
 
     ' ######################################################################################################
     ' RADIO BUTTONS
@@ -9,35 +9,36 @@
         num1 = CInt(ValidNum(txtNum11.Text))
         num2 = CInt(ValidNum(txtNum11.Text))
         If rbtPow.Checked Then
-            num3 = (num1 ^ num2).ToString("E10")
+            num3 = (num1 ^ num2)
         ElseIf rbtMod.Checked Then
-            num3 = num3 Mod num2
+            num3 = num1 Mod num2
         ElseIf rbtDiv.Checked Then
             num3 = num1 \ num2
         End If
         txtRes1.Text = num3
     End Sub
+
     ' ######################################################################################################
     ' RADIO BUTTON CHANGED
-    'Private Sub rbtPow_CheckedChanged(sender As Object, e As EventArgs) Handles rbtPow.CheckedChanged
-    '    num1 = CInt(ValidNum(txtNum11.Text))
-    '    num2 = CInt(ValidNum(txtNum21.Text))
-    '    num3 = (num1 ^ num2).ToString("E10")
-    '    txtRes1.Text = num3
-    'End Sub
-    'Private Sub rbtMod_CheckedChanged(sender As Object, e As EventArgs) Handles rbtMod.CheckedChanged
+    Private Sub rbtPow_CheckedChanged(sender As Object, e As EventArgs) Handles rbtPow.CheckedChanged
+        num1 = CInt(ValidNum(txtNum11.Text))
+        num2 = CInt(ValidNum(txtNum21.Text))
+        num3 = num1 ^ num2
+        txtRes1.Text = num3
+    End Sub
+    Private Sub rbtMod_CheckedChanged(sender As Object, e As EventArgs) Handles rbtMod.CheckedChanged
 
-    '    num1 = CInt(ValidNum(txtNum11.Text))
-    '    num2 = CInt(ValidNum(txtNum21.Text))
-    '    num3 = num1 Mod num2
-    '    txtRes1.Text = num3
-    'End Sub
-    'Private Sub rbtDiv_CheckedChanged(sender As Object, e As EventArgs) Handles rbtDiv.CheckedChanged
-    '    num1 = CInt(ValidNum(txtNum11.Text))
-    '    num2 = CInt(ValidNum(txtNum21.Text))
-    '    num3 = num1 \ num2
-    '    txtRes1.Text = num3
-    'End Sub
+        num1 = CInt(ValidNum(txtNum11.Text))
+        num2 = CInt(ValidNum(txtNum21.Text))
+        num3 = num1 Mod num2
+        txtRes1.Text = num3
+    End Sub
+    Private Sub rbtDiv_CheckedChanged(sender As Object, e As EventArgs) Handles rbtDiv.CheckedChanged
+        num1 = CInt(ValidNum(txtNum11.Text))
+        num2 = CInt(ValidNum(txtNum21.Text))
+        num3 = num1 \ num2
+        txtRes1.Text = num3
+    End Sub
     ' ######################################################################################################
     ' USING SENDER OBJECT HANDLING EVENT
     'Private Sub rbtHandlers(sender As Object, e As EventArgs) Handles rbtPow.CheckedChanged, rbtMod.CheckedChanged, rbtDiv.CheckedChanged
@@ -58,6 +59,7 @@
     '    txtRes1.Text = num3
     'End Sub
     ' ######################################################################################################
+
     ' ######################################################################################################
     ' CHECK BUTTONS
     ' ######################################################################################################
@@ -96,4 +98,14 @@
     End Function
     ' ######################################################################################################
 
+    Private Sub btnClear1_Click(sender As Object, e As EventArgs) Handles btnClear1.Click
+        txtNum11.Clear()
+        txtNum21.Clear()
+        txtRes1.Clear()
+    End Sub
+    Private Sub btnClear2_Click(sender As Object, e As EventArgs) Handles btnClear2.Click
+        txtNum12.Clear()
+        txtNum22.Clear()
+        txtRes2.Clear()
+    End Sub
 End Class

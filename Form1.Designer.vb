@@ -254,9 +254,8 @@ Partial Class Form1
         Me.txtRes2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRes2.Dock = System.Windows.Forms.DockStyle.Right
         Me.txtRes2.Location = New System.Drawing.Point(95, 5)
-        Me.txtRes2.Multiline = True
         Me.txtRes2.Name = "txtRes2"
-        Me.txtRes2.Size = New System.Drawing.Size(100, 26)
+        Me.txtRes2.Size = New System.Drawing.Size(100, 22)
         Me.txtRes2.TabIndex = 1
         '
         'Label7
@@ -291,9 +290,8 @@ Partial Class Form1
         Me.txtNum22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNum22.Dock = System.Windows.Forms.DockStyle.Right
         Me.txtNum22.Location = New System.Drawing.Point(95, 5)
-        Me.txtNum22.Multiline = True
         Me.txtNum22.Name = "txtNum22"
-        Me.txtNum22.Size = New System.Drawing.Size(100, 26)
+        Me.txtNum22.Size = New System.Drawing.Size(100, 22)
         Me.txtNum22.TabIndex = 1
         '
         'Label8
@@ -328,9 +326,8 @@ Partial Class Form1
         Me.txtNum12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNum12.Dock = System.Windows.Forms.DockStyle.Right
         Me.txtNum12.Location = New System.Drawing.Point(95, 5)
-        Me.txtNum12.Multiline = True
         Me.txtNum12.Name = "txtNum12"
-        Me.txtNum12.Size = New System.Drawing.Size(100, 26)
+        Me.txtNum12.Size = New System.Drawing.Size(100, 22)
         Me.txtNum12.TabIndex = 7
         '
         'Label9
@@ -510,9 +507,8 @@ Partial Class Form1
         Me.txtRes1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRes1.Dock = System.Windows.Forms.DockStyle.Right
         Me.txtRes1.Location = New System.Drawing.Point(95, 5)
-        Me.txtRes1.Multiline = True
         Me.txtRes1.Name = "txtRes1"
-        Me.txtRes1.Size = New System.Drawing.Size(100, 26)
+        Me.txtRes1.Size = New System.Drawing.Size(100, 22)
         Me.txtRes1.TabIndex = 1
         '
         'Label2
@@ -547,9 +543,8 @@ Partial Class Form1
         Me.txtNum21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNum21.Dock = System.Windows.Forms.DockStyle.Right
         Me.txtNum21.Location = New System.Drawing.Point(95, 5)
-        Me.txtNum21.Multiline = True
         Me.txtNum21.Name = "txtNum21"
-        Me.txtNum21.Size = New System.Drawing.Size(100, 26)
+        Me.txtNum21.Size = New System.Drawing.Size(100, 22)
         Me.txtNum21.TabIndex = 1
         '
         'Label4
@@ -584,9 +579,8 @@ Partial Class Form1
         Me.txtNum11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNum11.Dock = System.Windows.Forms.DockStyle.Right
         Me.txtNum11.Location = New System.Drawing.Point(95, 5)
-        Me.txtNum11.Multiline = True
         Me.txtNum11.Name = "txtNum11"
-        Me.txtNum11.Size = New System.Drawing.Size(100, 26)
+        Me.txtNum11.Size = New System.Drawing.Size(100, 22)
         Me.txtNum11.TabIndex = 7
         '
         'Label5
