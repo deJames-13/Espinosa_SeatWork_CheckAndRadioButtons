@@ -41,23 +41,23 @@
     End Sub
     ' ######################################################################################################
     ' USING SENDER OBJECT HANDLING EVENT
-    'Private Sub rbtHandlers(sender As Object, e As EventArgs) Handles rbtPow.CheckedChanged, rbtMod.CheckedChanged, rbtDiv.CheckedChanged
-    '    Dim rbt As RadioButton = CType(sender, RadioButton)
+    Private Sub rbtHandlers(sender As Object, e As EventArgs) Handles rbtPow.CheckedChanged, rbtMod.CheckedChanged, rbtDiv.CheckedChanged
+        Dim rbt As RadioButton = CType(sender, RadioButton)
 
 
-    '    num1 = CInt(ValidNum(txtNum11.Text))
-    '    num2 = CInt(ValidNum(txtNum21.Text))
+        num1 = CInt(ValidNum(txtNum11.Text))
+        num2 = CInt(ValidNum(txtNum21.Text))
 
-    '    Select Case rbt.Name
-    '        Case "rbtPow"
-    '            num3 = (num1 ^ num2).ToString("E10")
-    '        Case "rbtMod"
-    '            num3 = num1 Mod num2
-    '        Case "rbtDiv"
-    '            num3 = num1 \ num2
-    '    End Select
-    '    txtRes1.Text = num3
-    'End Sub
+        Select Case rbt.Name
+            Case "rbtPow"
+                num3 = (num1 ^ num2).ToString("E10")
+            Case "rbtMod"
+                num3 = num1 Mod num2
+            Case "rbtDiv"
+                num3 = num1 \ num2
+        End Select
+        txtRes1.Text = num3
+    End Sub
     ' ######################################################################################################
 
     ' ######################################################################################################
@@ -97,7 +97,7 @@
         Return 1
     End Function
     ' ######################################################################################################
-
+    ' CLEAR
     Private Sub btnClear1_Click(sender As Object, e As EventArgs) Handles btnClear1.Click
         txtNum11.Clear()
         txtNum21.Clear()
