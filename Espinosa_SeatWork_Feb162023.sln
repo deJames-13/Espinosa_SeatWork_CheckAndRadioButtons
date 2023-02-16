@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Espinosa_SeatWork_RadioAndCheckButtons", "Espinosa_SeatWork_RadioAndCheckButtons.vbproj", "{E117A554-C8D0-4293-9D32-5DA6B6FB23E4}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Espinosa_Seatwork_ComboAndListBoxes", "..\Espinosa_Seatwork_ComboAndListBoxes\Espinosa_Seatwork_ComboAndListBoxes.vbproj", "{20E24163-62EE-4DDA-99A8-91F9B0408921}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "MachineProblem3_02102023", "..\..\Week 4\MachineProblem3_02102023\MachineProblem3_02102023.vbproj", "{A30E3288-2001-42B5-94CB-73883158EAF1}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Excercise2", "..\..\Week 3\Excercise2\Excercise2.vbproj", "{1D2BB64E-A647-4560-AE48-6F7682F55D9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E117A554-C8D0-4293-9D32-5DA6B6FB23E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E117A554-C8D0-4293-9D32-5DA6B6FB23E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E117A554-C8D0-4293-9D32-5DA6B6FB23E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E117A554-C8D0-4293-9D32-5DA6B6FB23E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E24163-62EE-4DDA-99A8-91F9B0408921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E24163-62EE-4DDA-99A8-91F9B0408921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E24163-62EE-4DDA-99A8-91F9B0408921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E24163-62EE-4DDA-99A8-91F9B0408921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30E3288-2001-42B5-94CB-73883158EAF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30E3288-2001-42B5-94CB-73883158EAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30E3288-2001-42B5-94CB-73883158EAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30E3288-2001-42B5-94CB-73883158EAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2BB64E-A647-4560-AE48-6F7682F55D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2BB64E-A647-4560-AE48-6F7682F55D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2BB64E-A647-4560-AE48-6F7682F55D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2BB64E-A647-4560-AE48-6F7682F55D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56A7B531-6BF7-49D1-984D-2451812CA58F}
+	EndGlobalSection
+EndGlobal
